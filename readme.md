@@ -11,4 +11,15 @@ I include:
 6. The model itself in two different formats: .py and .ipynb - the .py file is where I initially built it and ran it as I prefer using VSCode, but I also included the ipython notebook version as that has superior visualization and markdown capabilities. It allows for better formatted explanations essentially, so I decided to include both. The .py file is more of a "plug and chug" version with comments that have minimal explanations, and the .ipynb goes into details about as much as I could think of
 7. The .ipynb visualization of the results (CNN-visualization.ipynb) - this is more of a demonstration of how to plot the results than showing off the results of the model itself. I am happy with the results in that they performed better than expected, but they could easily be improved in multiple ways (please see the limitations and discussion sections of the GalacticCNN.ipynb for further explanations)
 
+To use this you should have the following installed:
+* Pandas
+* Numpy
+* OpenCV (cv2)
+* sklearn / scikit-learn
+* Tensorflow
+* Keras
+* Keras_tuner
+
+I used a Python 3.10.11 conda environemnt and conda installed most things, and my local machine is an Alienware M17x R1 running Ubuntu 20.04. Using other versions may break something in the code if ran under different conditions, so please keep that in mind if something does go wrong. Also, be sure to change the filepath as those are configurations specific to my local machine
+
 Hope you find this helpful!
